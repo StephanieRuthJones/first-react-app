@@ -6,7 +6,6 @@ class Card extends React.Component {
     }
     showAnswer = () => {
         this.setState({ showAnswer: !this.state.showAnswer })
-        console.log("showAnswer", this.state.showAnswer)
     }
     render() {
 
